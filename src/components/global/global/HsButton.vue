@@ -10,10 +10,10 @@ export default {};
 
 <style scoped>
 button {
-  padding: 0.7rem 1.5rem;
+  padding: 1rem 1.5rem;
   background-color: rgb(57, 57, 237);
   border: 1px solid rgb(57, 57, 237);
-  border-radius: 1rem;
+  border-radius: 2rem;
   color: white;
   cursor: pointer;
 }

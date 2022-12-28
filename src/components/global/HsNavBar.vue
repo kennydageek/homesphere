@@ -51,7 +51,7 @@ export default {
 
 .nav-logo {
   align-self: center;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600;
 }
 
@@ -62,6 +62,7 @@ export default {
 
 .nav-logo a:hover {
   /* color: #2b2a1f; */
+  color: white;
 }
 
 .nav-links {
@@ -74,5 +75,6 @@ export default {
 .nav-links li {
   list-style: none;
   font-weight: 500;
+  font-size: 1.4rem;
 }
 </style>
