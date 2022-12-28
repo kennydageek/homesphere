@@ -26,7 +26,20 @@ requireComponent.keys().forEach((fileName) => {
   Vue.component(componentName, componentConfig.default || componentConfig);
 });
 
+/* import the fontawesome core */
+import { library } from '@fortawesome/fontawesome-svg-core';
+
+/* import font awesome icon component */
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
+/* import specific icons */
+import { faUserSecret } from '@fortawesome/free-solid-svg-icons';
+
+/* add icons to the library */
+library.add(faUserSecret);
+
 new Vue({
+  FontAwesomeIcon,
   router,
   store,
   render: (h) => h(App),
