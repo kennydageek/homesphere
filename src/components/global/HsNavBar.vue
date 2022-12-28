@@ -26,11 +26,11 @@ export default {
       links: [
         {
           text: 'How it Works',
-          route: '/about',
+          route: '/howitworks',
         },
         {
           text: 'Features',
-          route: '/about',
+          route: '/features',
         },
         {
           text: 'About',
