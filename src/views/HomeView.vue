@@ -14,7 +14,7 @@
       <hs-stat-card>
         <template #icon> <HomeIcon fillColor="#3939ed" /></template>
         <template #metric-count>
-          <p class="metric-count">50k</p>
+          <p class="metric-count">50<span class="small-text">k</span></p>
         </template>
         <template #metric>
           <p class="metric">Satisfied customers</p>
@@ -26,7 +26,7 @@
           <EmoticonHappyOutlineIcon fillColor="#3939ed"
         /></template>
         <template #metric-count>
-          <p class="metric-count">90%</p>
+          <p class="metric-count">90<span class="small-text">%</span></p>
         </template>
         <template #metric>
           <p class="metric">Already inhabited</p>
@@ -100,5 +100,10 @@ export default {
   color: #3939ed;
   font-weight: 600;
   margin-bottom: 1rem;
+}
+
+.small-text {
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 </style>

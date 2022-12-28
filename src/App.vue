@@ -6,6 +6,8 @@
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -17,11 +19,7 @@ html {
 }
 
 #app {
-  font-family: sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* text-align: center;
-  color: #2c3e50; */
+  font-family: 'Poppins', sans-serif;
   font-size: 1.6rem;
 }
 

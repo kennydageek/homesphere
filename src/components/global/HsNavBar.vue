@@ -53,6 +53,7 @@ export default {
   align-self: center;
   font-size: 3rem;
   font-weight: 600;
+  /* width: 10%; */
 }
 
 .nav-logo a {
@@ -70,6 +71,7 @@ export default {
   display: flex;
   align-self: center;
   gap: 5rem;
+  width: 60%;
 }
 
 .nav-links li {
